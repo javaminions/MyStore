@@ -1,0 +1,51 @@
+Project info: 
+
+Sports Store
+
+Categories: 
+- Apparel
+- Accessories 
+- Sports Equipment
+- Outdoors
+- Sale
+
+Apparel Sub-Categories: 
+- Men 
+- Women
+- Kids
+- Shoes
+- Shirts
+- Shorts
+- Sweats
+- Loungewear
+- Jerseys 
+
+Accessories Sub-Categories: 
+- Hats
+- Bags
+- Backpacks 
+- Visors
+- Headbands 
+
+Sports Equipment Sub-Categories: 
+- Baseball
+- Basketball
+- Football
+- Golf
+- Soccer
+- Volleyball 
+- Ping Pong
+- Hockey 
+
+Outdoors Sub-Categories:
+- Hiking 
+- Surfing
+- Camping 
+- Fishing 
+- Running 
+
+Sale Sub-Categories: 
+- 30% Off
+- 50% Off
+- 60% Off
+- Clearance 
