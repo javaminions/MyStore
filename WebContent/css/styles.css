@@ -1,4 +1,107 @@
-@charset "ISO-8859-1";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+.container {
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 100%;
+}
+body {
+  font-family: 'Open Sans', 'sans-serif';
+}
+
+.listItem:hover {
+	font-weight: bold;
+}
+
+#search-bar{
+	margin-top: 10px;
+	height: 30px;
+}
+
+.navbar .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar .navbar-nav > .open > a,
+.navbar .navbar-nav > .open > a:hover,
+.navbar .navbar-nav > .open > a:focus {
+    color: #ffffff;
+	background-color: rgb(0, 115, 166);
+}
+
+.myButtons {
+	margin-top: 10px;
+}
+
+.topNav{
+background-color: rgb(0, 115, 166);
+}
+
+.topNav:hover {
+background-color: rgb(0, 115, 166);
+}
+
+nav navbar-nav topNav:hover {
+	
+	background-color: rgb(0, 115, 166);
+}
+
+.mega-dropdown {
+  position: static !important;
+}
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: #222;
+  padding: 3px 5px;
+}
+
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+}
+.mega-dropdown-menu .dropdown-header {
+  font-size: 18px;
+  color: #ff3546;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+}
+
+.carousel-control {
+  width: 30px;
+  height: 30px;
+  top: -35px;
+
+}
+.left.carousel-control {
+  right: 30px;
+  left: inherit;
+}
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right {
+  font-size: 12px;
+  background-color: #fff;
+  line-height: 30px;
+  text-shadow: none;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+
+/***** end of new css ******/
+
 
 .center{
   float: left;
@@ -34,9 +137,7 @@
 }
 
 #search-bar input {
-     height: 30px;
-     width: 500px;
-
+ margin-bottom: 30px; 
 }
 
 .box:hover {
@@ -50,6 +151,7 @@ element.style {
 #nav_button {
     background-color: #f2f2f2;
     color: black;
+    margin-bottom: 35px !important;
 }
 .btn:not(:disabled):not(.disabled) {
     cursor: pointer;
