@@ -5,27 +5,27 @@
 	padding-right: 0px;
 	width: 100%;
 }
+
 body {
-  font-family: 'Open Sans', 'sans-serif';
+	font-family: 'Open Sans', 'sans-serif';
 }
 
 .listItem:hover {
 	font-weight: bold;
 }
 
-#search-bar{
+#search-bar {
 	margin-top: 10px;
 	height: 30px;
 }
 
-.navbar .navbar-nav > li > a {
-    color: #ffffff;
+.navbar .navbar-nav>li>a {
+	color: #ffffff;
 }
 
-.navbar .navbar-nav > .open > a,
-.navbar .navbar-nav > .open > a:hover,
-.navbar .navbar-nav > .open > a:focus {
-    color: #ffffff;
+.navbar .navbar-nav>.open>a, .navbar .navbar-nav>.open>a:hover, .navbar .navbar-nav>.open>a:focus
+	{
+	color: #ffffff;
 	background-color: rgb(0, 115, 166);
 }
 
@@ -33,95 +33,95 @@ body {
 	margin-top: 10px;
 }
 
-.topNav{
-background-color: rgb(0, 115, 166);
+.topNav {
+	background-color: rgb(0, 115, 166);
 }
 
 .topNav:hover {
-background-color: rgb(0, 115, 166);
+	background-color: rgb(0, 115, 166);
 }
 
 nav navbar-nav topNav:hover {
-	
 	background-color: rgb(0, 115, 166);
 }
 
 .mega-dropdown {
-  position: static !important;
-}
-.mega-dropdown-menu {
-    padding: 20px 0px;
-    width: 100%;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-}
-.mega-dropdown-menu > li > ul {
-  padding: 0;
-  margin: 0;
-}
-.mega-dropdown-menu > li > ul > li {
-  list-style: none;
-}
-.mega-dropdown-menu > li > ul > li > a {
-  display: block;
-  color: #222;
-  padding: 3px 5px;
+	position: static !important;
 }
 
-.mega-dropdown-menu > li ul > li > a:hover,
-.mega-dropdown-menu > li ul > li > a:focus {
-  text-decoration: none;
+.mega-dropdown-menu {
+	padding: 20px 0px;
+	width: 100%;
+	box-shadow: none;
+	-webkit-box-shadow: none;
 }
+
+.mega-dropdown-menu>li>ul {
+	padding: 0;
+	margin: 0;
+}
+
+.mega-dropdown-menu>li>ul>li {
+	list-style: none;
+}
+
+.mega-dropdown-menu>li>ul>li>a {
+	display: block;
+	color: #222;
+	padding: 3px 5px;
+}
+
+.mega-dropdown-menu>li ul>li>a:hover, .mega-dropdown-menu>li ul>li>a:focus
+	{
+	text-decoration: none;
+}
+
 .mega-dropdown-menu .dropdown-header {
-  font-size: 18px;
-  color: #ff3546;
-  padding: 5px 60px 5px 5px;
-  line-height: 30px;
+	font-size: 18px;
+	color: #ff3546;
+	padding: 5px 60px 5px 5px;
+	line-height: 30px;
 }
 
 .carousel-control {
-  width: 30px;
-  height: 30px;
-  top: -35px;
-
+	width: 30px;
+	height: 30px;
+	top: -35px;
 }
+
 .left.carousel-control {
-  right: 30px;
-  left: inherit;
-}
-.carousel-control .glyphicon-chevron-left, 
-.carousel-control .glyphicon-chevron-right {
-  font-size: 12px;
-  background-color: #fff;
-  line-height: 30px;
-  text-shadow: none;
-  color: #333;
-  border: 1px solid #ddd;
+	right: 30px;
+	left: inherit;
 }
 
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right
+	{
+	font-size: 12px;
+	background-color: #fff;
+	line-height: 30px;
+	text-shadow: none;
+	color: #333;
+	border: 1px solid #ddd;
+}
 
 /***** end of new css ******/
-
-
-.center{
-  float: left;
-  position: absolute;
-  top: 28%;
-  left: 40%;
-  transform: translate(-50%, -50%);
+.center {
+	float: left;
+	position: absolute;
+	top: 28%;
+	left: 40%;
+	transform: translate(-50%, -50%);
 }
 
 .form-inline .form-control {
 	width: 500px;
 }
 
-
 .dropdown-content a:hover {
 	font-weight: bold;
-	}
-	
-.footer  {
-	background-color: #f2f2f2;
+}
+
+.footer {
 	font-color: #006099;
 }
 
@@ -131,7 +131,6 @@ nav navbar-nav topNav:hover {
 }
 
 #nav_button {
-	background-color: #f2f2f2;
 	color: black;
 }
 
@@ -141,59 +140,78 @@ nav navbar-nav topNav:hover {
 }
 
 #search-bar input {
- margin-bottom: 30px; 
+	margin-bottom: 30px;
 }
 
 .box:hover {
-   border-color: black;
-   background-color: #006099;
+	border-color: black;
+	background-color: #006099;
 }
-
 
 element.style {
+	
 }
+
 #nav_button {
-    background-color: #f2f2f2;
-    color: black;
-    margin-bottom: 35px !important;
+	background-color: #f2f2f2;
+	color: black;
+	margin-bottom: 35px !important;
 }
-.btn:not(:disabled):not(.disabled) {
-    cursor: pointer;
+
+.btn:not (:disabled ):not (.disabled ) {
+	cursor: pointer;
 }
+
 .btn {
-    display: inline-block;
-    margin-bottom: 0;
-    font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    background-image: none;
-    border: 1px solid transparent;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    border-radius: 4px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
-@media (min-width: 576px)
-.mb-sm-0, .my-sm-0 {
-    margin-bottom: 0!important;
+
+@media ( min-width : 576px) .mb-sm-0 , . my-sm-0 {
+	margin-bottom
+	:
+	 
+	0!
+	important
+	;
+	
+
 }
-@media (min-width: 576px)
-.mt-sm-0, .my-sm-0 {
-    margin-top: 0!important;
+
+@media ( min-width : 576px) .mt-sm-0 , . my-sm-0 {
+	margin-top
+	:
+	 
+	0!
+	important
+	;
+	
+
 }
+
 .mb-2, .my-2 {
-    margin-bottom: .5rem!important;
+	margin-bottom: .5rem !important;
 }
+
 .mt-2, .my-2 {
-    margin-top: .5rem!important;
+	margin-top: .5rem !important;
 }
 
 #externalPlaceholder {
@@ -203,5 +221,68 @@ element.style {
 	display: block;
 	text-align: center;
 }
+
+/* second carousel */
+body {
+	padding-top: 50px;
+	background: white;
+}
+
+#myCarousel .nav a small {
+	display: block;
+}
+
+#myCarousel .nav {
+	background: #eee;
+}
+
+#carousel2 #myCarousel .nav {
+	background: white;
+}
+
+#myCarousel .nav a {
+	border-radius: 0px;
+}
+
+#carousel2 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	width: 25%;
+	margin: auto;
+	height: auto;
+}
+
+#carousel2 .carousel-inner>.item>img {
+	margin: 0 auto;
+}
+
+#carousel2 .carousel-indicators li {
+	display: inline-block;
+	text-indent: 0;
+	cursor: pointer;
+	border: none;
+	border-radius: 50%;
+	background-color: black;
+}
+
+#carousel2 .carousel-indicators .active {
+	background-color: blue;
+}
+
+#carousel2 .carousel-indicators>li, .carousel-indicators>li.active {
+	width: 100px;
+	height: 25px;
+	border-radius: 0;
+	background: white;
+	color: black;
+}
+
+#carousel2 .carousel-indicators>li.active {
+	background: rgb(0, 115, 166);
+	color: white;
+}
+
+#carousel2 .carousel {
+	padding-bottom: 60px;
+}
+
 
 
