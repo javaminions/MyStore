@@ -106,9 +106,13 @@ nav navbar-nav topNav:hover {
 .center{
   float: left;
   position: absolute;
-  top: 50%;
-  left: 30%;
+  top: 28%;
+  left: 40%;
   transform: translate(-50%, -50%);
+}
+
+.form-inline .form-control {
+	width: 500px;
 }
 
 
