@@ -250,6 +250,7 @@ body {
 	height: auto;
 }
 
+
 #carousel2 .carousel-inner>.item>img {
 	margin: 0 auto;
 }
@@ -263,6 +264,7 @@ body {
 	background-color: black;
 }
 
+
 #carousel2 .carousel-indicators .active {
 	background-color: blue;
 }
@@ -273,11 +275,13 @@ body {
 	border-radius: 0;
 	background: white;
 	color: black;
+	border-radius: 20px;
 }
 
 #carousel2 .carousel-indicators>li.active {
 	background: rgb(0, 115, 166);
 	color: white;
+	border-radius: 20px;
 }
 
 #carousel2 .carousel {
