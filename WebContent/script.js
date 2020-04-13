@@ -19,6 +19,10 @@ $(document).ready(function() {
 					$("#Logout").click(function() {
 						$("#externalPlaceholder").html("<h2 style=\"margin: auto; width: 60%;\"><br><br>You have been logged out successfully.<br><br>Thank you and enjoy your day</h2>");
 					});
+					
+					$('#ContactUs').click(function() {
+						$("#externalPlaceholder").load("ContactUs.html");
+					});
 
 					$(".dropdown").hover(function() {
 						$('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideDown("400");
