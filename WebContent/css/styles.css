@@ -192,5 +192,12 @@ element.style {
     margin-top: .5rem!important;
 }
 
+#externalPlaceholder {
+	width: 80%;
+	height: auto;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
 
 
