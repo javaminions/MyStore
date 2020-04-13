@@ -274,7 +274,6 @@ element.style {
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
   color:black;
-  text-decoration:underline;
 }
 .footer-links.inline li
 {
