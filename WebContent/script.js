@@ -48,7 +48,7 @@ $(document).ready(function() {
 					});
 					
 					$("#Press").click(function() {
-						$("#externalPlaceholder").html("<img src=\"images/breaking-news.png\">");
+						$("#externalPlaceholder").html("<img width=\"50%\" src=\"images/breaking-news.png\">");
 					});
 					
 					$(".dropdown").hover(function() {
