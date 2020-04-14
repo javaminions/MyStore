@@ -25,6 +25,10 @@ $(document).ready(function() {
 					$('#ContactUs').click(function() {
 						$("#externalPlaceholder").load("ContactUs.html");
 					});
+					
+					$('#AboutUs').click(function() {
+						$("#externalPlaceholder").load("AboutUs.html");
+					});
 
 					$(".dropdown").hover(function() {
 						$('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideDown("400");
