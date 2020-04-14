@@ -1,195 +1,207 @@
 <html>
-
-<!--from my branch -->
-
 <head>
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<link
-	href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"
-	rel="stylesheet" id="bootstrap-css">
-<script
-	src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="script.js" charset="utf-8"></script>
-<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="script.js" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
+<title>Java Minions</title>
 <body>
 
 	<div class="wrapper">
 		<div class="top">
-			<img alt="Costco Logo" src="images/logo.png" id="logo">
+			
+			<a href="index.html"><img alt="Costco Logo" src="images/logo.png" id="logo"></a>
 		</div>
 
 		<div class="container">
-			<nav class="navbar navbar-inverse topNav">
-				<div class="navbar-header">
-					<button class="navbar-toggle" type="button" data-toggle="collapse"
-						data-target=".js-navbar-collapse">
-						<span class="sr-only">Toggle navigation</span> <span
-							class="icon-bar"></span> <span class="icon-bar"></span> <span
-							class="icon-bar"></span>
-					</button>
-				</div>
-
-				<div class="collapse navbar-collapse js-navbar-collapse topNav">
-					<ul class="nav navbar-nav topNav">
-						<li class="dropdown mega-dropdown topNav"><a href="#"
-							class="dropdown-toggle" data-toggle="dropdown">Categories <span
-								class="caret"></span></a>
-							<ul class="dropdown-menu mega-dropdown-menu ">
-								<li class="col-sm-3">
-									<ul>
-										<li class="dropdown-header">Apparel</li>
-										<div id="menCollection" class="carousel slide"
-											data-ride="carousel">
-											<div class="carousel-inner">
-												<div class="item active">
-													<a href="#"><img
-														src="http://placehold.it/254x150/ff3546/f5f5f5/&text=New+Collection"
-														class="img-responsive" alt="product 1"></a>
-													<h4>
-														<small>Summer dress floral prints</small>
-													</h4>
-													<button class="btn btn-primary" type="button">49,99
-														€</button>
-													<button href="#" class="btn btn-default" type="button">
-														<span class="glyphicon glyphicon-heart"></span> Add to
-														Wishlist
-													</button>
-												</div>
-												<!-- End Item -->
-												<div class="item">
-													<a href="#"><img
-														src="http://placehold.it/254x150/3498db/f5f5f5/&text=New+Collection"
-														class="img-responsive" alt="product 2"></a>
-													<h4>
-														<small>Gold sandals with shiny touch</small>
-													</h4>
-													<button class="btn btn-primary" type="button">9,99
-														€</button>
-													<button href="#" class="btn btn-default" type="button">
-														<span class="glyphicon glyphicon-heart"></span> Add to
-														Wishlist
-													</button>
-												</div>
-												<!-- End Item -->
-												<div class="item">
-													<a href="#"><img
-														src="http://placehold.it/254x150/2ecc71/f5f5f5/&text=New+Collection"
-														class="img-responsive" alt="product 3"></a>
-													<h4>
-														<small>Denin jacket stamped</small>
-													</h4>
-													<button class="btn btn-primary" type="button">49,99
-														€</button>
-													<button href="#" class="btn btn-default" type="button">
-														<span class="glyphicon glyphicon-heart"></span> Add to
-														Wishlist
-													</button>
-												</div>
-												<!-- End Item -->
-											</div>
-											<!-- End Carousel Inner -->
-											<!-- Controls -->
-											<a class="left carousel-control" href="#menCollection"
-												role="button" data-slide="prev"> <span
-												class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-												<span class="sr-only">Previous</span>
-											</a> <a class="right carousel-control" href="#menCollection"
-												role="button" data-slide="next"> <span
-												class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-												<span class="sr-only">Next</span>
-											</a>
-										</div>
-										<!-- /.carousel -->
-										<li class="divider"></li>
-										<li><a href="#">View all Collection <span
-												class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-									</ul>
-								</li>
-								<li class="col-sm-3">
-									<ul>
-										<li class="dropdown-header">Apparel</li>
-										<li class="listItem"><a href="#">Shirts</a></li>
-										<li class="listItem"><a href="#">Shorts</a></li>
-										<li class="listItem"><a href="#">Pants</a></li>
-										<li class="listItem"><a href="#">Coats</a></li>
-										<li class="divider"></li>
-										<li class="dropdown-header">Electronics</li>
-										<li class="listItem"><a href="#">Loungewear</a></li>
-										<li class="listItem"><a href="#">Jerseys</a></li>
-									</ul>
-								</li>
-								<li class="col-sm-3">
-									<ul>
-										<li class="dropdown-header">Hardware/Appliances</li>
-										<li class="listItem"><a href="#">Shirts</a></li>
-										<li class="listItem"><a href="#">Shorts</a></li>
-										<li class="listItem"><a href="#">Pants</a></li>
-										<li class="listItem"><a href="#">Coats</a></li>
-										<li class="divider"></li>
-										<li class="dropdown-header">Outdoor</li>
-										<li class="listItem"><a href="#">Loungewear</a></li>
-										<li class="listItem"><a href="#">Jerseys</a></li>
-									</ul>
-								</li>
-								<li class="col-sm-3">
-									<ul>
-										<li class="dropdown-header">Groceries</li>
-										<li class="listItem"><a href="#">Shirts</a></li>
-										<li class="listItem"><a href="#">Shorts</a></li>
-										<li class="listItem"><a href="#">Pants</a></li>
-										<li class="listItem"><a href="#">Coats</a></li>
-										<li class="divider"></li>
-										<li class="dropdown-header">Sale</li>
-										<li class="listItem"><a href="#">Loungewear</a></li>
-										<li class="listItem"><a href="#">Jerseys</a></li>
-									</ul>
-								</li>
-							</ul></li>
-
-					</ul>
-
-					<ul class="nav navbar-nav navbar-right topNav">
-						<!-- wishlist -->
-						<a href="javascript:void(0)" id="WishList"
-							class="btn btn-default btn-sm myButtons"> <span
-							class="glyphicon glyphicon-gift"></span> Wishlist
-						</a>&nbsp
-						<li class="dropdown"><a href="#" class="dropdown-toggle"
-							data-toggle="dropdown" role="button" aria-expanded="false">My
-								account <span class="caret"></span>
-						</a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="javascript:void(0)" id="Profile">User
-										profile</a></li>
-								<li><a href="javascript:void(0)" id="Orders">Orders</a></li>
-								<li><a href="#">Cart</a></li>
-								<li class="divider"></li>
-								<li><a href="javascript:void(0)" id="Logout">Logout</a></li>
-							</ul></li>
-						<li><a href="#">My cart (0) items</a></li>
-					</ul>
-					<form class="form-inline my-2 my-lg-0 center" id="search-bar">
-						<input class="form-control mr-sm-2" type="text"
-							placeholder="Search" aria-label="Search">
-						<button class="btn btn-outline-success my-2 my-sm-0 box"
-							type="submit" id="nav_button">Search</button>
-					</form>
-				</div>
-				<!-- /.nav-collapse -->
-			</nav>
-			<br> <br> <br> <br>
+  <nav class="navbar navbar-inverse topNav">
+    <div class="navbar-header">
+    	<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+	</div>
+	
+	<div class="collapse navbar-collapse js-navbar-collapse topNav">
+		<ul class="nav navbar-nav topNav">
+			<li class="dropdown mega-dropdown topNav">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <span class="caret"></span></a>				
+				<ul class="dropdown-menu mega-dropdown-menu ">
+					<li class="col-sm-3">
+						<ul>
+							<li class="dropdown-header">Apparel</li>                            
+                            <div id="menCollection" class="carousel slide" data-ride="carousel">
+                              <div class="carousel-inner">
+                                <div class="item active">
+                                    <a href="#"><img src="images/apparel1.jpg" class="img-responsive" alt="product 1"></a>
+                                    <h4><small>Summer shirts</small></h4>                                        
+                                    <button class="btn btn-primary" type="button">$8.99</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>       
+                                </div><!-- End Item -->
+                                <div class="item">
+                                    <a href="#"><img src="images/apparel2.png" class="img-responsive" alt="product 2"></a>
+                                    <h4><small>Summer outer wear</small></h4>                                        
+                                    <button class="btn btn-primary" type="button">$8.99-$39.99</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>        
+                                </div><!-- End Item -->                               
+                              </div><!-- End Carousel Inner -->
+                              <!-- Controls -->
+                              <a class="left carousel-control" href="#menCollection" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="right carousel-control" href="#menCollection" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div><!-- /.carousel -->
+                            <li class="divider"></li>
+                            <li><a href="#">View all Collection <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+						</ul>
+					</li>
+					<li class="col-sm-3">
+						<ul>
+							<li class="dropdown-header">Apparel</li>
+							<li class="listItem"><a href="#">Mens</a></li>
+							<li class="listItem"><a href="#">Womens</a></li>
+							<li class="listItem"><a href="#">Kids</a></li>
+							<li class="divider"></li>
+						 	<li class="dropdown-header">Accessories</li>
+						    <li class="listItem"><a href="#">Hats</a></li>
+						    <li class="listItem"><a href="#">Bags/Backpacks</a></li>
+						    <li class="listItem"><a href="#">Visors</a></li>
+						    <li class="listItem"><a href="#">Headbands</a></li>
+						</ul>
+					</li>
+					<li class="col-sm-3">
+						<ul>
+							<li class="dropdown-header">Sports Equipment</li>
+							<li class="listItem"><a href="#">Baseball</a></li>
+							<li class="listItem"><a href="#">Basketball</a></li>
+							<li class="listItem"><a href="#">Football</a></li>
+							<li class="divider"></li>
+							<li class="dropdown-header">Outdoor</li>
+						    <li class="listItem"><a href="#">Hiking</a></li>
+						    <li class="listItem"><a href="#">Surfing</a></li>	
+						    <li class="listItem"><a href="#">Camping</a></li>			
+						</ul>
+					</li>
+					<li class="col-sm-3">
+						<ul>
+							<li class="dropdown-header">Groceries</li>
+							<li class="listItem"><a href="#">Frozen</a></li>
+							<li class="listItem"><a href="#">Produce</a></li>
+							<li class="listItem"><a href="#">Canned items</a></li>
+							<li class="divider"></li>
+							<li class="dropdown-header">Sale</li>
+						    <li class="listItem"><a href="#">30%</a></li>
+						    <li class="listItem"><a href="#">50%</a></li>	
+						    <li class="listItem"><a href="#">Clearance</a></li>					
+						</ul>
+					</li>
+				</ul>				
+			</li>	
+			
+		</ul>
+		
+        <ul class="nav navbar-nav navbar-right topNav">
+			<!-- wishlist -->
+			<a href="javascript:void(0)" id="WishList" class="btn btn-default btn-sm myButtons"> <span
+				class="glyphicon glyphicon-gift"></span> Wishlist
+			</a>&nbsp
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My account <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="javascript:void(0)" id="Profile">User profile</a></li>
+            <li><a href="javascript:void(0)" id="Orders">Orders</a></li>
+            <li><a href="javascript:void(0)" class="Cart-btn">Cart</a></li>
+            <li class="divider"></li>
+            <li><a href="javascript:void(0)" id="Logout">Logout</a></li>
+          </ul>
+        </li>
+        <li><a href="javascript:void(0)" class="Cart-btn">My cart (0) items</a></li>
+      </ul>
+         <form class="form-inline my-2 my-lg-0 " id="search-bar">
+				<input class="form-control mr-sm-2" type="text" placeholder="Search"
+					aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0 box" type="submit" id="nav_button">Search</button>
+			</form>
+	</div><!-- /.nav-collapse -->
+  </nav>
 
 		</div>
 
 		<div id="externalPlaceholder"></div>
 	</div>
+</div>
 
 
+  <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6 class="name">Java Minions</h6>
+            <p class="text-justify">We <i>JAVA MINIONS </i> developed this website
+            through the UST-Global program. Our strengths are Strong Attention to detail,
+            Good Java Programming Skills, Multitasking experts, Well-developed soft skills,
+            and Excellence-driven.<br>
+            We are cool.
+            
+            </p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>About</h6>
+            <ul class="footer-links">
+              <li><a href="javascript:void(0)" id="ContactUs">Contact Us</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Press</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Help</h6>
+            <ul class="footer-links">
+              <li><a href="#">Payments</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Cancellation & Returns</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+         <a class="bottom" href="#">Java Minions</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="youtube" href="http://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
+              <li><a class="linkedin" href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+	
+	
 	<script
 		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
 		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
