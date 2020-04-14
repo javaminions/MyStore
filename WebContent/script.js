@@ -38,6 +38,10 @@ $(document).ready(function() {
 						$("#externalPlaceholder").load("Return.html");
 					});
 					
+					$("#FAQ").click(function() {
+						$("#externalPlaceholder").load("FAQ.html");
+					});
+					
 					$(".dropdown").hover(function() {
 						$('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideDown("400");
 						$(this).toggleClass('open');
