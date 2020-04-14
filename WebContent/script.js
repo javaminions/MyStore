@@ -24,6 +24,14 @@ $(document).ready(function() {
 						$("#externalPlaceholder").load("ContactUs.html");
 					});
 
+					$("#Payments").click(function() {
+						$("#externalPlaceholder").load("Payments.html");
+					});
+					
+					$("#Return").click(function() {
+						$("#externalPlaceholder").load("Return.html");
+					});
+					
 					$(".dropdown").hover(function() {
 						$('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideDown("400");
 						$(this).toggleClass('open');
