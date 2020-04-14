@@ -23,6 +23,10 @@ $(document).ready(function() {
 					$('#ContactUs').click(function() {
 						$("#externalPlaceholder").load("ContactUs.html");
 					});
+					
+					$('#AboutUs').click(function() {
+						$("#externalPlaceholder").load("AboutUs.html");
+					});
 
 					$("#Payments").click(function() {
 						$("#externalPlaceholder").load("Payments.html");
