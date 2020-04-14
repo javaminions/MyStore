@@ -40,6 +40,11 @@ $(document).ready(function() {
 					
 					$("#FAQ").click(function() {
 						$("#externalPlaceholder").load("FAQ.html");
+						
+					});
+
+					$("#Testimonials").click(function() {
+						$("#externalPlaceholder").load("Testimonials.html");
 					});
 					
 					$(".dropdown").hover(function() {
