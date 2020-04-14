@@ -42,6 +42,11 @@ $(document).ready(function() {
 						$("#externalPlaceholder").load("FAQ.html");
 						
 					});
+					
+					$("#Shipping").click(function() {
+						$("#externalPlaceholder").load("Shipping.html");
+						
+					});
 
 					$("#Testimonials").click(function() {
 						$("#externalPlaceholder").load("Testimonials.html");
