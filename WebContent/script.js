@@ -42,6 +42,10 @@ $(document).ready(function() {
 						$("#externalPlaceholder").load("Testimonials.html");
 					});
 					
+					$("#Press").click(function() {
+						$("#externalPlaceholder").html("<img src=\"images/breaking-news.png\">");
+					});
+					
 					$(".dropdown").hover(function() {
 						$('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideDown("400");
 						$(this).toggleClass('open');
