@@ -1,4 +1,6 @@
 $(document).ready(function() {
+	
+					//$("#externalPlaceholder").load("Carousel.html");
 
 					$("#Orders").click(function() {
 						$("#externalPlaceholder").load("Orders.html");
