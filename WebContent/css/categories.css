@@ -1,0 +1,50 @@
+.filterDiv {
+  text-align: center;
+  margin: 5px;
+  display: none;
+  justify-content: flex-start;
+}
+
+#myBtnContainer { 
+	text-align: center;
+}
+
+.show {
+	display: flex;
+    justify-content: flex-start;
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+
+/* Style the buttons */
+.top-btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: red;
+  cursor: pointer;
+}
+
+.top-btn:hover {
+  background-color: #ddd;
+}
+
+.top-btn.active {
+  background-color: #666;
+  color: white;
+}
+
+.card-img-top {
+ width: 150px;
+ height: 125px;
+}
+
+.card {
+	display:inline-block;
+	
+	}

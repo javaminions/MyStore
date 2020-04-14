@@ -1,10 +1,255 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="css/categories.css">
 </head>
 <body>
-<div>Welcome to the categories page</div>
+<h2 style="text-align: center">Products</h2>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('apparel')"> Apparel</button>
+  <button class="btn" onclick="filterSelection('accessories')"> Accessories</button>
+  <button class="btn" onclick="filterSelection('sports')"> Sports Equipment</button>
+  <button class="btn" onclick="filterSelection('outdoors')"> Outdoors</button>
+  <button class="btn" onclick="filterSelection('groceries')"> Groceries</button>
+  <button class="btn" onclick="filterSelection('clearance')"> Clearance</button>
+
+</div>
+
+<div class="container">
+   <div class="filterDiv apparel">
+   <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/vans.png" alt="Vans">
+        <div class="card-body">
+          <h4 class="card-title">Vans Sk8-Hi MTE Shoes</h4>
+          <h6 class="card-subtitle mb-2 text-muted">Style: VA33TXRJ5</h6>
+          <p class="card-text">
+            The Vans All-Weather MTE Collection features footwear and apparel designed to withstand the elements whilst still looking cool.             </p>
+          <div class="options d-flex flex-fill">
+             <select class="custom-select mr-1">
+                <option selected>Color</option>
+                <option value="1">Green</option>
+                <option value="2">Blue</option>
+                <option value="3">Red</option>
+            </select>
+            <select class="custom-select ml-1">
+                <option selected>Size</option>
+                <option value="1">41</option>
+                <option value="2">42</option>
+                <option value="3">43</option>
+            </select>
+          </div>
+          <div class="buy d-flex justify-content-between align-items-center">
+            <div class="price text-success"><h5 class="mt-4">$45</h5></div>
+             <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      </div>
+   <div class="filterDiv groceries">
+   <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/610AcjSnOJL._SL1000_.jpg" alt="Nesquick">
+        <div class="card-body">
+          <h4 class="card-title">Nesquick</h4>
+          <h6 class="card-subtitle mb-2 text-muted">Nesquick</h6>
+          <p class="card-text">
+ 			This is some nesquick. This is some nesquick. This is some nesquick. This is some nesquick. This is some nesquick. This is some nesquick. This is some nesquick. This is some nesquick. This is some nesquick. This is some nesquick.
+          <div class="buy d-flex justify-content-between align-items-center">
+            <div class="price text-success"><h5 class="mt-4">$5</h5></div>
+             <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      </div>
+  <div class="filterDiv outdoors">
+   <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/71GQBoTrYxL._AC_UL1500_.jpg" alt="Fishing rod">
+        <div class="card-body">
+          <h4 class="card-title">Wakeman Strike Fishing Rod</h4>
+          <h6 class="card-subtitle mb-2 text-muted">Style: VA33TXRJ5</h6>
+          <p class="card-text">
+            This is a fishing rod that comes equipped with a spinning reel, ready to catch fish no matter where you are!           </p>
+          <div class="options d-flex flex-fill">
+             <select class="custom-select mr-1">
+                <option selected>Color</option>
+                <option value="1">Green</option>
+                <option value="2">Blue</option>
+                <option value="3">Red</option>
+            </select>
+            <select class="custom-select ml-1">
+                <option selected>Size</option>
+                <option value="1">41</option>
+                <option value="2">42</option>
+                <option value="3">43</option>
+            </select>
+          </div>
+          <div class="buy d-flex justify-content-between align-items-center">
+            <div class="price text-success"><h5 class="mt-4">$23</h5></div>
+             <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      </div>
+       <div class="filterDiv outdoors">
+   <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/81v3Gf2CoFL._AC_UL1500_.jpg" alt="Vans">
+        <div class="card-body">
+          <h4 class="card-title">North Face Outdoor Backpack</h4>
+          <h6 class="card-subtitle mb-2 text-muted">Style: VA33TXRJ5</h6>
+          <p class="card-text">
+            The North Face backpack is great for carrying your belongings and keeping its contents organized and protected.           </p>
+          <div class="options d-flex flex-fill">
+             <select class="custom-select mr-1">
+                <option selected>Color</option>
+                <option value="1">Green</option>
+                <option value="2">Blue</option>
+                <option value="3">Red</option>
+            </select>
+            <select class="custom-select ml-1">
+                <option selected>Size</option>
+                <option value="1">41</option>
+                <option value="2">42</option>
+                <option value="3">43</option>
+            </select>
+          </div>
+          <div class="buy d-flex justify-content-between align-items-center">
+            <div class="price text-success"><h5 class="mt-4">$60</h5></div>
+             <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      </div>
+       <div class="filterDiv outdoors">
+   <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/71K5ewxnQ4L._AC_SL1500_.jpg" alt="Tent">
+        <div class="card-body">
+          <h4 class="card-title">Coleman Camping Tent</h4>
+          <h6 class="card-subtitle mb-2 text-muted">Style: VA33TXRJ5</h6>
+          <p class="card-text">
+            This is a large, high quality tent that can hold up to several people for overnight sleeping in the outdoors        </p>
+          <div class="options d-flex flex-fill">
+             <select class="custom-select mr-1">
+                <option selected>Color</option>
+                <option value="1">Green</option>
+                <option value="2">Blue</option>
+                <option value="3">Red</option>
+            </select>
+            <select class="custom-select ml-1">
+                <option selected>Size</option>
+                <option value="1">41</option>
+                <option value="2">42</option>
+                <option value="3">43</option>
+            </select>
+          </div>
+          <div class="buy d-flex justify-content-between align-items-center">
+            <div class="price text-success"><h5 class="mt-4">$145</h5></div>
+             <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="filterDiv sports">
+   <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/61jU4o9laBL._AC_SL1200_.jpg" alt="Tent">
+        <div class="card-body">
+          <h4 class="card-title">Wilson Size 3 Soccer Ball</h4>
+          <h6 class="card-subtitle mb-2 text-muted">Style: VA33TXRJ5</h6>
+          <p class="card-text">
+            This is a high quality soccer ball made by wilson that you can use to play lots of soccer/futball outdoors.       </p>
+          <div class="options d-flex flex-fill">
+             <select class="custom-select mr-1">
+                <option selected>Color</option>
+                <option value="1">Green</option>
+                <option value="2">Blue</option>
+                <option value="3">Red</option>
+            </select>
+            <select class="custom-select ml-1">
+                <option selected>Size</option>
+                <option value="1">41</option>
+                <option value="2">42</option>
+                <option value="3">43</option>
+            </select>
+          </div>
+          <div class="buy d-flex justify-content-between align-items-center">
+            <div class="price text-success"><h5 class="mt-4">$20</h5></div>
+             <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      </div>
+        <div class="filterDiv accessories">
+   <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/61nJKRQ0AML._AC_UL1100_.jpg" alt="Tent">
+        <div class="card-body">
+          <h4 class="card-title">Top Level HQ Sun Visor</h4>
+          <h6 class="card-subtitle mb-2 text-muted">Style: VA33TXRJ5</h6>
+          <p class="card-text">
+            This is a sun visor that can be used to keep the sun out of your eyes when you are outdoors. Many colors available.     </p>
+          <div class="options d-flex flex-fill">
+             <select class="custom-select mr-1">
+                <option selected>Color</option>
+                <option value="1">Green</option>
+                <option value="2">Blue</option>
+                <option value="3">Red</option>
+            </select>
+            <select class="custom-select ml-1">
+                <option selected>Size</option>
+                <option value="1">41</option>
+                <option value="2">42</option>
+                <option value="3">43</option>
+            </select>
+          </div>
+          <div class="buy d-flex justify-content-between align-items-center">
+            <div class="price text-success"><h5 class="mt-4">$15</h5></div>
+             <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      </div>
+       <div class="filterDiv clearance">
+   <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/61RNV-X-B5L._AC_SL1200_.jpg" alt="Tent">
+        <div class="card-body">
+          <h4 class="card-title">Wavestorm 8' Surf Board</h4>
+          <h6 class="card-subtitle mb-2 text-muted">Style: VA33TXRJ5</h6>
+          <p class="card-text">
+            This is a surf board that can be used to catch waves out in the ocean and can be laid, sat, or stood on.    </p>
+          <div class="options d-flex flex-fill">
+             <select class="custom-select mr-1">
+                <option selected>Color</option>
+                <option value="1">Green</option>
+                <option value="2">Blue</option>
+                <option value="3">Red</option>
+            </select>
+            <select class="custom-select ml-1">
+                <option selected>Size</option>
+                <option value="1">41</option>
+                <option value="2">42</option>
+                <option value="3">43</option>
+            </select>
+          </div>
+          <div class="buy d-flex justify-content-between align-items-center">
+            <div class="price text-success"><h5 class="mt-4">$225</h5></div>
+             <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="src/categories.js">
+
+
+</script>
+
 </body>
 </html>
