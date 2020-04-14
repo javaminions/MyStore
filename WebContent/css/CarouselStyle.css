@@ -1,4 +1,7 @@
 
+.imgheight img {
+	height: 35% !important;
+}
 #carousel2 .nav a small {
 	display: block;
 }
@@ -18,7 +21,6 @@
 #carousel2 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
 	width: auto;
 	margin: auto;
-	height: 35%;
 }
 
 
@@ -74,3 +76,4 @@
     top: auto;
     bottom: 0;
 }
+
