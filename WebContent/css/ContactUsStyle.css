@@ -8,8 +8,10 @@
 
 .ContactUs input, textArea {
   padding: 10px;
+  display: block;
 }
 
 .title {
   padding: 10px;
 }
+
