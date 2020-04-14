@@ -12,7 +12,7 @@ $(document).ready(function() {
 						$("#externalPlaceholder").load("Profile.html");
 					});
 					
-					$("#Cart").click(function() {
+					$(".Cart-btn").click(function() {
 						$("#externalPlaceholder").load("Cart.html");
 					});
 
