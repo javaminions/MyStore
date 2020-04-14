@@ -105,22 +105,6 @@ nav navbar-nav topNav:hover {
 	
 }
 
-.carousel-caption p {
-	
-	text-align: center;
-	padding-right: 35px;
-	float: right;
-	font-size: 12px;
-	font-family: arial;
-	color: black;
-	text-shadow: 0 0 0 #eee;
-}
-
-.carousel-caption {
-    top: auto;
-    bottom: 0;
-}
-
 
 /***** end of new css ******/
 .center {
@@ -240,71 +224,11 @@ element.style {
 	text-align: center;
 }
 
-/* second carousel */
 body {
 	padding-top: 50px;
 	background: white;
 }
 
-#myCarousel .nav a small {
-	display: block;
-}
-
-#myCarousel .nav {
-	background: #eee;
-}
-
-#myCarousel .nav {
-	background: white;
-}
-
-#myCarousel .nav a {
-	border-radius: 0px;
-}
-
-#carousel2 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
-	width: auto;
-	margin: auto;
-	height: 35%;
-}
-
-
-#carousel2 .carousel-inner>.item>img {
-	margin: 0 auto;
-}
-
-#carousel2 .carousel-indicators li {
-	display: inline-block;
-	text-indent: 0;
-	cursor: pointer;
-	border: none;
-	border-radius: 50%;
-	background-color: black;
-}
-
-
-#carousel2 .carousel-indicators .active {
-	background-color: blue;
-}
-
-#carousel2 .carousel-indicators>li, .carousel-indicators>li.active {
-	width: 100px;
-	height: 25px;
-	border-radius: 0;
-	background: white;
-	color: black;
-	border-radius: 20px;
-}
-
-#carousel2 .carousel-indicators>li.active {
-	background: rgb(0, 115, 166);
-	color: white;
-	border-radius: 20px;
-}
-
-#carousel2 .carousel {
-	padding-bottom: 60px;
-}
 
 .site-footer
 {
