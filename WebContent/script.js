@@ -38,6 +38,10 @@ $(document).ready(function() {
 						$("#externalPlaceholder").load("Return.html");
 					});
 					
+					$("#Testimonials").click(function() {
+						$("#externalPlaceholder").load("Testimonials.html");
+					});
+					
 					$(".dropdown").hover(function() {
 						$('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideDown("400");
 						$(this).toggleClass('open');
