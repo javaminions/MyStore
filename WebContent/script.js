@@ -38,6 +38,11 @@ $(document).ready(function() {
 						$("#externalPlaceholder").load("Return.html");
 					});
 					
+					$("#FAQ").click(function() {
+						$("#externalPlaceholder").load("FAQ.html");
+						
+					});
+
 					$("#Testimonials").click(function() {
 						$("#externalPlaceholder").load("Testimonials.html");
 					});
