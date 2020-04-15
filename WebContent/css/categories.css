@@ -130,3 +130,6 @@ a.cart:hover {
 	display:inline-block;
 	
 	}
+.status_out {
+	color: red !important;
+}
