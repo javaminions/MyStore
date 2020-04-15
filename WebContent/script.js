@@ -53,7 +53,7 @@ $(document).ready(function() {
 					});
 					
 					$("#Press").click(function() {
-						$("#externalPlaceholder").html("<img width=\"50%\" src=\"images/breaking-news.png\">");
+						$("#externalPlaceholder").html("<h2>JavaMinions in the Press</h2><br><br><img width=\"50%\" src=\"images/breaking-news.png\">");
 					});
 					
 					$(".dropdown").hover(function() {
