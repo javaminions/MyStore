@@ -1,14 +1,13 @@
 $(document).ready(function() {
 	
-					$("#externalPlaceholder").load("Carousel.html");
-
 					$("#Orders").click(function() {
 						$("#externalPlaceholder").load("Orders.html");
 						$(window).scrollTop(0);
 					});
-
-					$("#WishList").click(function() {
-						$("#externalPlaceholder").load("WishList.html");
+					
+					$(".toWishList").click(function() {
+						console.log('redirect called');
+						window.location.href = "index.html?name=WishList";
 						$(window).scrollTop(0);
 					});
 
@@ -80,3 +79,4 @@ $(document).ready(function() {
 					
 
 				});
+
