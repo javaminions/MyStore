@@ -40,3 +40,11 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
+$(document).ready(function(){
+	
+	$(".cartButton").click(function() {
+		var count = parseInt($('#lblCartCount').text());
+			$('#lblCartCount').text(parseInt(count+=1));
+		});
+	});
