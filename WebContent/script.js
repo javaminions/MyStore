@@ -1,13 +1,14 @@
 $(document).ready(function() {
 	
-					$("#externalPlaceholder").load("Carousel.html");
-
+					//$("#externalPlaceholder").load("Carousel.html");
+	
 					$("#Orders").click(function() {
 						$("#externalPlaceholder").load("Orders.html");
 					});
 
-					$("#WishList").click(function() {
-						$("#externalPlaceholder").load("WishList.html");
+					$(".toWishList").click(function() {
+						console.log('redirect called');
+						window.location.href = "index.html?name=WishList";
 					});
 
 					$("#Profile").click(function() {
@@ -53,7 +54,7 @@ $(document).ready(function() {
 					});
 					
 					$("#Press").click(function() {
-						$("#externalPlaceholder").html("<h2>JavaMinions in the Press</h2><br><br><img width=\"50%\" src=\"images/breaking-news.png\">");
+						$("#externalPlaceholder").html("<img width=\"50%\" src=\"images/breaking-news.png\">");
 					});
 					
 					$(".dropdown").hover(function() {
@@ -68,3 +69,4 @@ $(document).ready(function() {
 					
 
 				});
+
